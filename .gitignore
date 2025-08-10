@@ -205,3 +205,60 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# .gitignore
+# 功能：指定不应提交到版本控制的文件和目录
+# 作者：Xu Guangyuan
+# 日期： 2025/08/09
+# =============== #
+# Virtual Environments
+# =============== #
+# All types of Python virtual environments
+venv/
+.env/
+.venv/
+env/
+pyvenv.cfg
+
+# Conda specific
+.conda/
+conda_env.yml
+
+# =============== #
+# Project Specific
+# =============== #
+# Data files
+data/raw/
+data/processed/
+
+# Model files
+models/
+
+# Result files
+results/
+old_results/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Log files
+*.log
+logs/
+
+# Large files
+*.pt
+*.pth
+*.h5
